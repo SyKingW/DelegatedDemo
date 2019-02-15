@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'XQDelegatedDemo' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for XQDelegatedDemo
+
+  target 'XQDelegatedDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'XQDelegatedDemoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+pod 'Delegated'
+
+end
